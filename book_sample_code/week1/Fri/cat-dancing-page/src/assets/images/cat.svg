@@ -1,0 +1,58 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cat body -->
+  <ellipse cx="100" cy="130" rx="50" ry="35" fill="#ff8c42" stroke="#333" stroke-width="2"/>
+
+  <!-- Cat head -->
+  <circle cx="100" cy="80" r="40" fill="#ff8c42" stroke="#333" stroke-width="2"/>
+
+  <!-- Cat ears -->
+  <polygon points="75,50 85,20 95,50" fill="#ff8c42" stroke="#333" stroke-width="2"/>
+  <polygon points="105,50 115,20 125,50" fill="#ff8c42" stroke="#333" stroke-width="2"/>
+
+  <!-- Inner ears -->
+  <polygon points="78,45 85,30 92,45" fill="#ffb366"/>
+  <polygon points="108,45 115,30 122,45" fill="#ffb366"/>
+
+  <!-- Eyes -->
+  <circle cx="88" cy="75" r="8" fill="white"/>
+  <circle cx="112" cy="75" r="8" fill="white"/>
+  <circle cx="88" cy="75" r="4" fill="black"/>
+  <circle cx="112" cy="75" r="4" fill="black"/>
+  <circle cx="90" cy="73" r="1.5" fill="white"/>
+  <circle cx="114" cy="73" r="1.5" fill="white"/>
+
+  <!-- Nose -->
+  <polygon points="100,85 95,92 105,92" fill="#ff6b9d"/>
+
+  <!-- Mouth -->
+  <path d="M 100 95 Q 95 100 90 95" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M 100 95 Q 105 100 110 95" stroke="#333" stroke-width="2" fill="none"/>
+
+  <!-- Whiskers -->
+  <line x1="60" y1="80" x2="80" y2="82" stroke="#333" stroke-width="2"/>
+  <line x1="60" y1="90" x2="80" y2="88" stroke="#333" stroke-width="2"/>
+  <line x1="120" y1="82" x2="140" y2="80" stroke="#333" stroke-width="2"/>
+  <line x1="120" y1="88" x2="140" y2="90" stroke="#333" stroke-width="2"/>
+
+  <!-- Legs -->
+  <ellipse cx="80" cy="155" rx="8" ry="15" fill="#ff8c42" stroke="#333" stroke-width="2"/>
+  <ellipse cx="120" cy="155" rx="8" ry="15" fill="#ff8c42" stroke="#333" stroke-width="2"/>
+  <ellipse cx="85" cy="155" rx="8" ry="15" fill="#ff8c42" stroke="#333" stroke-width="2"/>
+  <ellipse cx="115" cy="155" rx="8" ry="15" fill="#ff8c42" stroke="#333" stroke-width="2"/>
+
+  <!-- Paws -->
+  <circle cx="80" cy="167" r="6" fill="#333"/>
+  <circle cx="120" cy="167" r="6" fill="#333"/>
+  <circle cx="85" cy="167" r="6" fill="#333"/>
+  <circle cx="115" cy="167" r="6" fill="#333"/>
+
+  <!-- Tail -->
+  <path d="M 150 130 Q 170 120 175 100 Q 180 85 170 75" stroke="#ff8c42" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+  <!-- Belly pattern -->
+  <ellipse cx="100" cy="135" rx="25" ry="20" fill="#ffb366"/>
+
+  <!-- Stripes on head -->
+  <path d="M 85 60 Q 100 55 115 60" stroke="#e67331" stroke-width="3" fill="none"/>
+  <path d="M 82 70 Q 100 65 118 70" stroke="#e67331" stroke-width="3" fill="none"/>
+</svg>
